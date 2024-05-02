@@ -1,0 +1,484 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.fluid-container{
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+}
+/* styles.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #060525;
+}
+
+.login-form {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+}
+
+.login-form h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form input[type='email'],
+.login-form input[type='text'],
+.login-form input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-form input[type='submit'],
+.sign-up-button {
+  width: 100%;
+  background-color: #060525;
+  border: 1px solid #060525;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-form input[type='submit']:hover {
+  background-color: transparent;
+  color: #060525;
+  border: 1px solid #060525;
+}
+
+.login-form input[type='submit']:focus {
+  outline: none;
+}
+
+.logo-img {
+  width: 200px;
+}
+
+.navbar {
+  background-color: #0D0920;
+}
+
+
+
+
+.hero-section {
+  background-image: url('../public/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.hero-heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #0000005b;
+  transition: all 0.4s ease-in;
+}
+
+.error-message {
+  color: red;
+}
+
+.about-us-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+.about-us-description {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  padding-bottom: 1rem;
+  font-weight: 400;
+}
+
+/* section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+} */
+
+.footer-distributed {
+  background: #0D0920;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: lightseagreen;
+}
+
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;  
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: lightseagreen;
+  text-decoration: none;
+  ;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+.padding-left-5px {
+  padding-right: 5px;
+}
+
+
+/* Style for the section container */
+.why-choose-us {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+
+
+.why-choose-us h2 {
+  text-align: center;
+  font-size: 48px;
+  line-height: 58px;
+  color: #0D0920;
+  padding-bottom: 50px;
+}
+
+.why-choose-flex {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style for each feature */
+.feature {
+  width: 45%;
+  /* Adjust width as needed */
+  margin: 20px;
+}
+
+/* Style for feature headings */
+.feature h3 {
+  font-size: 1.8rem;
+  color: #007bff;
+  /* or any color you prefer */
+  margin-bottom: 15px;
+}
+
+/* Style for feature paragraphs */
+.feature p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.width{
+  height: fit-content;
+}
+.grid-je{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.car-card {
+  width: 100% !important;
+  border: 1px solid #ccc;
+  height: fit-content;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+  width: calc(33.33% - 40px); /* Adjusted width */
+  margin-right: 20px; /* Added margin between cards */
+  box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+.car-card:hover {
+  border: 1px solid #0056b3;
+}
+
+.cars-name {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.cars-rent {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.cars-image {
+  width: 250px;
+  border-radius: 8px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.car-card-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  font-size: 15px;
+  margin-right: 5px;
+  font-weight: 400;
+}
+
+.text-icons {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.car-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.car-heading {
+  font-size: 48px;
+  line-height: 58px;
+  color: #0D0920;
+}
+
+.view-all-button {
+  background-color: #007bff; /* Change color as needed */
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.view-all-button:hover {
+  background-color: #0056b3; /* Change color as needed */
+}
+
+/* Responsive styling for 3 cards per row */
+@media (max-width: 768px) {
+  .card-container {
+    flex-wrap: wrap;
+    margin-right: -20px; /* Adjusted negative margin */
+    margin-left: -20px; /* Adjusted negative margin */
+  }
+
+  .car-card {
+    width: calc(50% - 40px); /* Adjusted width for smaller screens */
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.rent-now-button{
+  display: none;
+  background-color: #0056b3;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+}
+
+.car-card:hover .rent-now-button{
+  visibility: visible;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.4s ease-in;
+}
+
+.car-card:hover .cards{
+  display: none;
+}
+
+
+
+
+
